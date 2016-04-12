@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="35.0dip" android:layout_gravity="center_horizontal" android:id="@id/instructionView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click the button to start the countdown, don't rush! Press the button when it is close to Zero" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/testfield" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Large Text" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <Button android:id="@id/startButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="58.0dip" android:text="Start" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

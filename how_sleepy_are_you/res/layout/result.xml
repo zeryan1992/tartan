@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="100.0dip" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="100.0dip" android:id="@id/telthem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_below="@id/score" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+</RelativeLayout>
